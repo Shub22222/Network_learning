@@ -1,0 +1,13 @@
+Transport Layer Ports
+
+- Ports below 1024 are called Well-Known Ports.
+- These ports are used by server applications (known fixed services).
+- Example: HTTP - 80, FTP - 21, 
+
+- Client uses Dynamic (Ephemeral) Ports automatically generated above 1024.
+- Client source port is random, for example 50123, 53000, 60010, etc.
+
+Example Connection:
+Client (Source Port 54012) → Server (Destination Port 80)
+then server wil listen only port 80.
+Server (Source Port 80) → Client (Destination Port 54012)
