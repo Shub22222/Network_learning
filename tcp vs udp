@@ -1,0 +1,2 @@
+today while lerning about tcp, udp  from cisco netcad. binary data, convert into segments that segment contain soure port number and  destination port number, in both tcp, udp segments,  but  diffrence is that  tcp have some seqence, in that segmets!! 
+and as per my collage knowledge tcp slow , udp is fast!!  
