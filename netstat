@@ -1,0 +1,15 @@
+The netstat -ano command is useful for network monitoring and troubleshooting.
+
+It helps to:
+
+Perform security checks by identifying unknown or suspicious active connections.
+
+Troubleshoot applications that are not running due to port conflicts.
+
+Check which ports are open or listening on the system.
+
+View active network connections and their status.
+
+Identify which process (PID) is using a particular port.
+
+Identify which protocol is being used by each connection (e.g., TCP or UDP).
