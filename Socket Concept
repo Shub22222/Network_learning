@@ -8,3 +8,4 @@ Port Number Categories
 | **Well-known Ports**                    | **0 – 1023**      | Standard / System ports | Common services and servers | 80 (HTTP), 443 (HTTPS), 21 (FTP), 22 (SSH), 25 (SMTP) |
 | **Registered Ports**                    | **1024 – 49151**  | Registered with IANA    | Applications and software   | 3306 (MySQL), 1433 (MS SQL), 8080 (Alt HTTP)          |
 | **Dynamic / Private / Ephemeral Ports** | **49152 – 65535** | Temporary, random ports | Client applications         | Browser connections like 1099, 51320, 55000           |
+
