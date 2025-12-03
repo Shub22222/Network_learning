@@ -1,1 +1,56 @@
 client server relationship
+
+
+How a Client Accesses a Website (Application Layer Flow)
+
+When a client wants to access a website (for example: www.cisco.com), it first needs to obtain the IP address of that website. Network devices communicate using IP addresses, not domain names.
+
+🔁 Step-by-Step Process
+1. User Types Website URL
+
+The user enters the URL www.cisco.com into the web browser.
+
+2. DNS Lookup Begins
+
+Since the client does not know the IP address, it performs a DNS query.
+
+The client sends a request using UDP to the DNS server.
+
+Port used: 53
+
+Purpose: Convert domain name ➝ IP address
+
+3. DNS Server Responds
+
+The DNS server returns the IP address (example: 192.0.2.5).
+
+4. TCP Connection to Web Server
+
+Now the client initiates a TCP three-way handshake with the server IP.
+
+Port 80 → HTTP (Unsecured website)
+
+Port 443 → HTTPS (Secure website)
+
+5. HTTP Request Sent
+
+After establishing the TCP session, the client sends:
+
+GET /index.html HTTP/1.1
+Host: www.cisco.com
+6. Server Responds with HTML
+
+The server sends the requested web page data.
+
+7. Browser Renders Page
+
+The webpage is displayed to the user.
+
+📌 Summary Diagram
+Client → DNS Query (UDP Port 53) → DNS Server → Returns IP Address
+Client → TCP Handshake (Port 80/443) → Web Server
+Client → HTTP GET Request → Server Sends HTML
+Browser Displays Web Page
+📍 Key Point
+
+First UDP for DNS lookup → Then TCP handshake → Then HTTP/HTTPS request → Server sends HTML
