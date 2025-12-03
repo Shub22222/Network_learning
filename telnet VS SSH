@@ -1,0 +1,15 @@
+telnet while transporting data it never encrypted form, so any one can intercepts as plain text!!
+also any one can access server, start / stop process!!, also shut down system!
+
+C:\>telnet 64.100.1.1
+Trying 64.100.1.1 ...Open
+
+but is closed by foreign host!! - this message due to  good configration
+
+C:\>ssh -l admin 64.100.1.1
+
+Password: 
+% Login invalid
+
+
+Password: 
