@@ -14,3 +14,10 @@ pc -SMTP -server- SMTP-server----------- >POP3(will_delete_it from server)-recip
 | **SMTP**  | *Simple Mail Transfer Protocol*              |
 | **POP3**  | *Post Office Protocol version 3*             |
 | **IMAP4** | *Internet Message Access Protocol version 4* |
+
+
+| Protocol              | Default Port | Secure Port (SSL/TLS) |
+| --------------------- | ------------ | --------------------- |
+| **SMTP** (sending)    | **25**       | **465** or **587**    |
+| **POP3** (receiving)  | **110**      | **995**               |
+| **IMAP4** (receiving) | **143**      | **993**               |
