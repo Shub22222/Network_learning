@@ -1,0 +1,23 @@
+today i am learning about FTP 
+first time i use dir !! in cmd to list all files!! 
+
+from cisco accademy i learning about FTP protocal
+
+FTP use for file transfer
+
+so client first genarate FTP 21 to connect to server then for uploding or downloading it use FTP 20 !!
+now learing about how to upload image to FTP server!!!!!!!!
+but learing throught command prompt i use first time ftp 209.165.200.226, then message is connected to  209.165.200.226
+again use dir to see all files on server
+enter username :_  and passward : _ 
+for UPLOAD FILE :-
+
+ftp>-- put xyzFilename.txt , then sucessful upload!!!
+
+for download from server 
+
+ftp>-- get xyzFilename.txt
+
+for delete 
+
+ftp> delete xyzFilename.txt
