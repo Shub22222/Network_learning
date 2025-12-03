@@ -1,0 +1,16 @@
+To send an email, the PC uses SMTP to communicate with the mail server (and server-to-server communication also uses SMTP), 
+and if the recipient is offline, the server temporarily stores the message; when the user checks email, POP3 can download
+and remove it from the server, while IMAP keeps the email stored on the server and syncs it across devices until the user 
+deletes it.........................
+
+
+pc -SMTP -server- SMTP-server----------- >POP3(will_delete_it from server)-reciptent 
+                       |
+                       |---------------- >IMAP3 (delete mail if user recived it )-recipent
+
+
+| Protocol  | Full Form                                    |
+| --------- | -------------------------------------------- |
+| **SMTP**  | *Simple Mail Transfer Protocol*              |
+| **POP3**  | *Post Office Protocol version 3*             |
+| **IMAP4** | *Internet Message Access Protocol version 4* |
