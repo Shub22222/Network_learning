@@ -1,0 +1,5 @@
+Background / Scenario
+
+A small business owner cannot connect to the internet with one of the four PCs in the office. 
+All the PCs are configured with static IP addressing using 192.168.1.0 /24 network. 
+The PCs should be able to access www.cisco.pka webserver. Use the ipconfig /all command to identify which PC is incorrectly configured.
