@@ -1,0 +1,7 @@
+How it works
+
+In most home or small office networks, the router has a built-in DHCP server.
+
+It automatically assigns IP address, subnet mask, default gateway, and DNS to devices (PC, mobile, laptop, etc.)
+
+DHCP makes network connection automatic — no need to manually set IP.
