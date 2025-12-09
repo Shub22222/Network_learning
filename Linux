@@ -2,3 +2,7 @@ in linux one have root directory, onther one is home directory.
 - two types of path ->
                       1) absoluste path - /home/Document/Picture
                       2) relative path  - Document
+
+
+rv file name .
+su - to acces root
