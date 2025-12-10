@@ -9,3 +9,5 @@ su - to acces root
 
 cp filename filenma2 - for copy
 echo 'hello' >> "file name"
+
+for excute ./filename
