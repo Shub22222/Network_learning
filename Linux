@@ -6,3 +6,6 @@ in linux one have root directory, onther one is home directory.
 
 rv file name .
 su - to acces root
+
+cp filename filenma2 - for copy
+echo 'hello' >> "file name"
