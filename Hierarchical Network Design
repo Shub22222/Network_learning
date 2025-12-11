@@ -1,0 +1,7 @@
+
+
+      core layer   (Cisco Catalyst 9600)
+          |
+    distributon layer (Cisco C9300 series)
+          |
+      access layer  (Cisco 2960-XR)
