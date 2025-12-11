@@ -1,7 +1,7 @@
 
 
-      core layer   (Cisco Catalyst 9600)
+      core layer   (Cisco Catalyst 9600)      modular Switch
           |
-    distributon layer (Cisco C9300 series)
+    distributon layer (Cisco C9300 series)    layer 3 (router)
           |
-      access layer  (Cisco 2960-XR)
+      access layer  (Cisco 2960-XR)   acces point, Layer switch 2
