@@ -1,0 +1,26 @@
+decimal to binary
+128 ->   128 64 32 16 8 4 2 1
+          1   0  0  0 0 0 0 0
+
+decimal to hex
+128 -> 128 64 32 16 8 4 2 1
+        1   0  0  0 0 0 0 0
+
+      now it's time to split in 2 parts
+
+        1   0  0  0      0 0 0 0
+
+      now for each part write with 8 4 2 1.  
+     8 4 2 1      8 4 2 1
+     1 0 0 0      0 0 0 0
+
+        |           |     
+       \ /         \ /
+        8           0
+
+  Answer  is 128 = 0x80    in  hexadecimal..
+
+  Have nice day_!!!!!!!!!!!!!!!
+
+
+  
