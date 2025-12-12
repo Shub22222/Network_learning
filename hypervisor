@@ -1,0 +1,16 @@
+2 types of hypervisor!
+  1) bear metal (installed on hardware)
+     No underlying operating system
+      Very fast, secure, stable
+      Used in data centers, enterprises
+Examples : KVM, Xen
+  
+
+  2) type 2 (installed on OS )
+     Works like normal software
+      Slower than Type 1 because it depends on the host OS
+      Used for personal, testing, labs
+Examples:VirtualBox, VMware Workstation, Parallels Desktop
+
+
+
