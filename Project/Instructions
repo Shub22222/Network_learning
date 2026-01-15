@@ -1,0 +1,67 @@
+Packet Tracer - Configure DHCP on a Wireless Router
+Objectives
+Connect 3 PCs to a wireless router
+Change the DHCP setting to a specific network range
+Configure the clients to obtain their address via DHCP
+Background / Scenario
+A home user wants to use a wireless router to connect 3 PCs. All 3 PCs should obtain their address automatically from the wireless router.
+
+Instructions
+Part 1: Set up the network topology
+Add three generic PCs.
+Connect each PC to an Ethernet port to the wireless router using straight-through cables.
+Part 2: Observe the default DHCP settings
+After the amber lights have turned green, click PC0. Click the Desktop tab. Select IP Configuration. Select DHCP to receive an IP address from DHCP Enabled Router.
+Record the IP address of the default gateway:
+
+Answer Area 
+198.168.5.1
+
+
+
+
+
+Close the IP Configuration window.
+Open a Web Browser.
+Enter the IP address of the default gateway recorded earlier into the URL field. When prompted, enter the username admin and password admin.
+Scroll through the Basic Setup page to view default settings, including the default IP address of the wireless router.
+Notice that DHCP is enabled, the starting address of the DHCP range and the range of addresses available to clients.
+Part 3: Change the default IP address of the wireless router.
+Within the Router IP Settings section, change the IP address to: 192.168.5.1.
+Scroll to the bottom of the page and click Save Settings.
+If it is done correctly, the web page will display an error message. Close the web browser.
+Click IP Configuration to renew the assigned IP address. Click Static. Click DHCP to receive new IP address information from the wireless router.
+Open the web browser, enter the IP address 192.168.5.1 in the URL field. When prompted, enter the username admin and password admin.
+Part 4: Change the default DHCP range of addresses.
+Notice the DHCP Server Start IP Address is updated to the same network as the Router IP.
+Change the Starting IP Address from 192.168.5.100 to 192.168.5.126.
+Change the Maximum Number of Users to 75.
+Scroll to the bottom of the page and click Save Settings. Close the web browser.
+Click IP Configuration to renew the assigned IP address. Click Static. Click DHCP to receive new IP address information from the wireless router.
+Select Command Prompt. Enter ipconfig.
+Record the IP address for PC0:
+
+Answer Area
+198.168.5.128
+
+
+Part 5: Enable DHCP on the other PCs.
+Click PC1.
+Select Desktop tab.
+Select IP Configuration.
+Click DHCP.
+Record the IP address for PC1:
+
+Answer Area
+198.168.5.127
+
+
+Close the configuration window.
+Enable DHCP on PC2 following the steps for PC1.
+Part 6: Verify connectivity
+Click PC2 and select the Desktop tab.
+Select Command Prompt.
+Enter ipconfig at the prompt to view the IP configuration.
+At the prompt, enter ping 192.168.5.1 to ping the wireless router.
+At the prompt, enter ping 192.168.5.127 to ping PC1.
+The pings to all devices should be successful.
